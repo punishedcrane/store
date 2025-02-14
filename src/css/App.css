@@ -1,0 +1,19 @@
+.productsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.productItems{
+    
+   
+    overflow: hidden;
+}
+.productTitle{
+    
+}
+.productPrice{}
+.productImage img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
